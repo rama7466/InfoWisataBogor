@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_normal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgWisata"
+        android:src="@drawable/puncak"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:text="Puncak Bogor"
+        android:textSize="@dimen/text_title"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtDeskripsi"
+        android:text="@string/desc_puncak"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:text="@string/btn_open_maps"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnDetail"
+        android:text="@string/btn_detail"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

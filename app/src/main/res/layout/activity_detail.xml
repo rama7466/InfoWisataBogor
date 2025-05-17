@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Detail Tempat Wisata"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Puncak Bogor adalah kawasan wisata pegunungan yang terkenal dengan pemandangan alamnya."
+        android:layout_marginTop="10dp" />
+</LinearLayout>
